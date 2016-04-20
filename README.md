@@ -15,15 +15,15 @@ IDとTaskIDという独自の型を定義しています。
 
 goでは、javaのクラスのような構造体と呼ばれる機能を提供しています。  
 構造体は次のように定義し、  
-また次のようにアクセスします。
+また次のようにアクセスします。  
 `
-	var task Task = Task{  
-		Code:   1,  
-		Detail: "enjoy go",  
-		done:   true,  
-	}  
+    var task Task = Task{  
+        Code:   1,  
+        Detail: "enjoy go",  
+        done:   true,  
+    }  
   
-	fmt.Println(task.Code)  
-	fmt.Println(task.Detail)  
-	fmt.Println(task.done)  
+    fmt.Println(task.Code)  
+    fmt.Println(task.Detail)  
+    fmt.Println(task.done)  
 `
